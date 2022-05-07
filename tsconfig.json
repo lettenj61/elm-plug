@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "strict": true,
+    "target": "ES2015"
+  },
+  "include": ["./src/*.ts"]
+}
