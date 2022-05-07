@@ -1,6 +1,6 @@
 {
   "name": "elm-plug",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Manage JavaScript ports for Elm",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
