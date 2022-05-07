@@ -1,14 +1,24 @@
 {
   "name": "elm-plug",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Manage JavaScript ports for Elm",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "lib",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["elm"],
+  "author": {
+    "name": "Hideyuki Ueno (lettenj61)",
+    "email": "letitscalable+npm@gmail.com",
+    "url": "https://github.com/lettenj61"
+  },
+  "license": "(Apache-2.0 OR MIT OR CC0-1.0)",
   "devDependencies": {
     "typescript": "^4.6.4"
   },
