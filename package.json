@@ -10,7 +10,11 @@
     "index.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types && npm run copy",
+    "build:esm": "tsc -p . --outDir .cache",
+    "build:cjs": "tsc -p . --module commonjs",
+    "build:types": "tsc -p . --declaration --emitDeclarationOnly --declarationDir .",
+    "copy": "cp .cache/index.js lib/index.mjs"
   },
   "keywords": ["elm"],
   "author": {
